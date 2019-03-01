@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghint">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="83dp">
+
+        <TextView
+            android:id="@+id/tx_rchc"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:text="Remain clue"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="505dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/tx_hcd2"
+            android:layout_alignLeft="@+id/tx_hcd2"
+            android:layout_alignStart="@+id/tx_hcd2" />
+
+        <TextView
+            android:id="@+id/tx_hintt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Hint and Clue"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+        <TextView
+            android:id="@+id/tx_hcd2"
+            android:layout_width="240dp"
+            android:layout_height="164dp"
+            android:text="Clue history here"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="316dp"
+            android:layout_marginTop="21dp"
+            android:layout_below="@+id/tx_hintt"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tx_hintd"
+            android:layout_width="240dp"
+            android:layout_height="164dp"
+            android:text="Hint history here"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="112dp"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/tx_rchc"
+            android:layout_alignLeft="@+id/tx_rchc"
+            android:layout_alignStart="@+id/tx_rchc" />
+    </RelativeLayout>
+
+</LinearLayout>
